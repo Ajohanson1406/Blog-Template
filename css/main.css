@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('/blog/assets/Cover.png');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+header .icons {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .icons .links {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons .links span::before {
+    color: white;
+    font-size: 30px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+  
+}
+
+nav .logo {
+    margin-left: 50px;
+}
+
+nav .logo img {
+    width: 250px;
+}
+
+nav .perfil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .perfil a {
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+}
+
+.hero div {
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.hero .story {
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.hero .story  {
+    color: white;
+    font-size: 3.5rem; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hero .enter {
+    width: 110px;
+    height: 50px;
+    background-color: #47cfac;
+    border: none;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.hero  a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
